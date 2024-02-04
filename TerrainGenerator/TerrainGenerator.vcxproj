@@ -24,10 +24,19 @@
     <ClCompile Include="voxels.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="biome_type.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="vectors.h" />
     <ClInclude Include="voxels.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="generator\biome\" />
+    <Folder Include="generator\feature\" />
+    <Folder Include="generator\terrain\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="generation.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

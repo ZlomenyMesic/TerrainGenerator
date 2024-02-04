@@ -25,6 +25,15 @@
     <Filter Include="Source Files\global\geometry">
       <UniqueIdentifier>{b8212269-3a66-4160-907b-14afc46f8003}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\generator\biome">
+      <UniqueIdentifier>{bdf94701-9308-476f-b085-1f44e9907ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generator\terrain">
+      <UniqueIdentifier>{e7867a88-1635-43b8-938e-084eddf249b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generator\feature">
+      <UniqueIdentifier>{f1972e41-ef1b-4dee-a9a2-8496ba8ce8cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -50,5 +59,13 @@
     <ClInclude Include="main.h">
       <Filter>Source Files\renderer</Filter>
     </ClInclude>
+    <ClInclude Include="biome_type.h">
+      <Filter>Source Files\generator\biome</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="generation.txt">
+      <Filter>Source Files\generator</Filter>
+    </Text>
   </ItemGroup>
 </Project>

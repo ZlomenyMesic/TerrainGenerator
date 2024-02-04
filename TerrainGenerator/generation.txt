@@ -1,0 +1,12 @@
+By KryKom
+
+how to generate a chunk
+
+1. generate biomes and geological areas in targeted chunk and x-distanced neighbours (they will be trashed later)
+2. generate height map for the targeted chunk (with the neighbour chunks) depending on biomes and geological areas
+3. generate biome blending 
+4. trash the neighbour chunks
+5. generate voxel map
+6. generate caves
+7. generate foliage
+8. overflow the blocks into neighbour chunks (set the not-generated to 1, overwrite the generated)
