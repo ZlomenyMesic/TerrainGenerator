@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="simplex.c" />
     <ClCompile Include="vectors.c" />
     <ClCompile Include="voxels.c" />
   </ItemGroup>
@@ -27,6 +28,7 @@
     <ClInclude Include="biome_type.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="simplex.h" />
     <ClInclude Include="vectors.h" />
     <ClInclude Include="voxels.h" />
   </ItemGroup>

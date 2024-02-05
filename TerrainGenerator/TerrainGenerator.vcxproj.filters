@@ -34,6 +34,9 @@
     <Filter Include="Source Files\generator\feature">
       <UniqueIdentifier>{f1972e41-ef1b-4dee-a9a2-8496ba8ce8cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\generator\noise">
+      <UniqueIdentifier>{58fca7bd-b13d-45ba-bae7-b11d705f3830}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="voxels.c">
       <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="simplex.c">
+      <Filter>Source Files\generator\noise</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="biome_type.h">
       <Filter>Source Files\generator\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="simplex.h">
+      <Filter>Source Files\generator\noise</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

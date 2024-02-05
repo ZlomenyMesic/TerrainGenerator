@@ -57,7 +57,8 @@ static void draw(void) {
 }
 
 int main() {
-	initialize();
+
+	initialize ();
 
 	while (!WindowShouldClose()) {
 		update();
