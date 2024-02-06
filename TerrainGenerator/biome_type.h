@@ -74,9 +74,9 @@ typedef enum { // biome type
 
 typedef enum { // geological area type
 
-	UNKNOWN = 0, // not set
+	NKNOWN = 0, // not set
 
 	// TODO
-
+	DA = 1
 
 } GeologicalAreaType;

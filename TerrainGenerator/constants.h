@@ -19,7 +19,7 @@
 #define UP KEY_SPACE
 #define DOWN KEY_LEFT_SHIFT
 
-#define CHUNK_SIZE 16
+#define CHUNK_SIZE 32
 #define HEIGHT_LIMIT 128
 #define RENDER_DIST 6
 #define ACTIVE_ARR_SIZE ((RENDER_DIST * 2) + 1)

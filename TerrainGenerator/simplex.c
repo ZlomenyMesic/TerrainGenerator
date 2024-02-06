@@ -57,8 +57,8 @@ float generate(float x, float y) {
 	float y2 = y0 - 1.0f + 2.0f * G2;
 	     
 	// Wrap the integer indices at 256, to avoid indexing perm[] out of bounds
-	int ii = Mod(i, 256);
-	int jj = Mod(j, 256);
+	int ii = mod(i, 256);
+	int jj = mod(j, 256);
 
 	// Calculate the contribution from the three corners
 	float t0 = 0.5f - x0 * x0 - y0 * y0;

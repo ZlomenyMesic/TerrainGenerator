@@ -19,14 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="biome_generator.c" />
+    <ClCompile Include="global.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="simplex.c" />
     <ClCompile Include="vectors.c" />
     <ClCompile Include="voxels.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="biome_generator.h" />
     <ClInclude Include="biome_type.h" />
     <ClInclude Include="constants.h" />
+    <ClInclude Include="global.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="simplex.h" />
     <ClInclude Include="vectors.h" />
@@ -39,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="generation.txt" />
+    <Text Include="saving.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

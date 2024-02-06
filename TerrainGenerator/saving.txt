@@ -1,0 +1,18 @@
+how to save / load a world
+
+# structure
+1. line: seed
+2. line: chunk pos list
+3. - n. line: chunks
+
+# how to load
+1. check seed
+2. find targeted chunk in pos list
+3. skip n lines (n = pos in pos list)
+4. read bytes / chars
+
+# how to save
+1. check seed
+2. add targeted chunk to pos list
+3. go to end
+4. write bytes / chars

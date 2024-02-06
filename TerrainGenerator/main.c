@@ -10,6 +10,7 @@
 #include "vectors.h"
 #include "voxels.h"
 
+// starts window
 static void initialize(void) {
 	InitWindow(WIN_WIDTH, WIN_HEIGHT, NULL);
 
@@ -27,6 +28,7 @@ static void initialize(void) {
 	initialize_chunks();
 }
 
+// update 
 static void update(void) {
 	Vector3 movement = vec3_new(
 		(IsKeyDown(FORWARD) * MOVE_SPEED) - (IsKeyDown(BACKWARD) * MOVE_SPEED),
@@ -41,6 +43,7 @@ static void update(void) {
 	update_active_chunks();
 }
 
+// main draw process
 static void draw(void) {
 	BeginDrawing();
 	BeginMode3D(camera);
@@ -56,6 +59,7 @@ static void draw(void) {
 	EndDrawing();
 }
 
+// MAIN
 int main() {
 
 	initialize ();

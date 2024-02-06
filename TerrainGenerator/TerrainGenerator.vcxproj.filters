@@ -51,6 +51,12 @@
     <ClCompile Include="simplex.c">
       <Filter>Source Files\generator\noise</Filter>
     </ClCompile>
+    <ClCompile Include="biome_generator.c">
+      <Filter>Source Files\generator\biome</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constants.h">
@@ -71,9 +77,18 @@
     <ClInclude Include="simplex.h">
       <Filter>Source Files\generator\noise</Filter>
     </ClInclude>
+    <ClInclude Include="biome_generator.h">
+      <Filter>Source Files\generator\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Source Files\global</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="generation.txt">
+      <Filter>Source Files\generator</Filter>
+    </Text>
+    <Text Include="saving.txt">
       <Filter>Source Files\generator</Filter>
     </Text>
   </ItemGroup>
